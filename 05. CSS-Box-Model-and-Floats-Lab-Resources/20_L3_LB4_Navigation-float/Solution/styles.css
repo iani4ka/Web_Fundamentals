@@ -1,0 +1,139 @@
+html{
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    display: block;
+    margin: 8px;
+    background:  rgb(238, 238, 238);
+    padding: 5rem;
+}
+p{
+    margin: 0;
+    padding-bottom: 1.5rem;
+}
+.site{
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.site:after{
+    display: block;
+    content: '';
+    clear: both;
+}
+.site-title{
+    display: inline-block;
+    min-width: 20vw;
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding-bottom: 0;
+    padding-right: 5vw;
+    text-decoration: none;
+}
+.site>header:first-of-type{
+    border-bottom: 2px solid #000;
+    overflow: hidden;
+}
+
+header nav{
+    display: block;
+    float: right;
+}
+header nav ul{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+header nav li{
+    display: inline-block;
+    padding: 0 0.2rem;
+}
+header nav li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    color: rgb(0, 102, 0);
+    border-radius: 0.3rem;
+    outline-color: none;
+}
+header nav li a:hover{
+    background: #090;
+    color: #FFF;
+}
+header nav li a:active{
+    background: #000;
+}
+.align-left,
+.align-right{
+    max-width: 100%;
+    height: auto;
+    color: rgb(255, 255, 255);
+    border: 0.4rem black solid;
+    padding: 0.9rem;
+    box-shadow: 0 0 2rem 0 rgba(0,0,0,0.25);
+}
+.align-right{
+    float: right;
+    margin: 0 0 1rem 1.5rem;
+}
+.align-left{
+    float:left;
+    margin: 0 1.5rem 1rem 0;
+}
+blockquote{
+    max-width: 40%;
+    min-width: 15rem;
+    float:right;
+    color: #444;
+    margin: 0 0 1.5rem 2rem;
+    padding: 1rem 2rem;
+    font-family: "Georgia", sans-serif;
+    padding-top: 0;
+    border-left: 4px solid #DDD;
+    position: relative;
+}
+blockquote .author{
+    text-align: right;
+}
+h1,h2,h3{
+    font-family: "Georgia", sans-serif;
+    size: 1em/1.2;
+}
+
+h1{font-size:2.2rem;}
+h2{font-size:2.0rem;}
+h3{font-size:1.8rem;}
+h4{font-size:1.6rem;}
+h5{font-size:1.4rem;}
+
+main,aside{
+    float: left;
+}
+main{
+    width: 70%;
+}
+aside{
+    width: 30%;
+    padding: 0 0 0 4rem;
+}
+li a{
+    text-decoration: none;
+    color: green;
+}
+ul{
+    padding: 0;
+    margin-left: 1.5rem;
+}
+ul li{
+    list-style-type: square;
+    list-style-position: inside;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}

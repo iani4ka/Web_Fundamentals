@@ -1,0 +1,54 @@
+html{
+    font: 16px;
+    line-height: 1.2;
+    font-family: "Helvetica", sans-serif;
+}
+body{
+    background: #eeeeee;
+    padding: 5rem;
+}
+
+header a{
+    text-decoration: none;
+}
+h1{
+    font-family: "Georgia", sans-serif;
+    font-size: 1em;
+    height: 1.2;
+}
+.site{
+    margin: 0;
+}
+.site-title{
+    display: inline-block;
+    padding-right: 5vw;
+    font-weight: bold;
+}
+.site-title a{
+    color: black;
+    font-size: 2.5rem;
+}
+.site>header:first-of-type{
+    border-bottom: 2px  solid black;
+}
+header nav{
+    display: inline-block;
+}
+header nav li{
+    display: inline-block;
+}
+header nav li a{
+    display: block;
+    color: #090;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    outline-color: none;
+}
+header nav li a:hover{
+    background: #090;
+    color: #FFF;
+}
+header nav li a:active{
+    background: black;
+}
+

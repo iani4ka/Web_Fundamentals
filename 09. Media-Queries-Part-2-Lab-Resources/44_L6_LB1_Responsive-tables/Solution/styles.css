@@ -1,0 +1,39 @@
+@import url('reset.css');
+@import url('typography.css');
+
+
+body{
+    background: #eeeeee;
+}
+
+@media screen and (max-width:800px){
+    table theead{
+        display: none;
+    }
+    table,
+    table tbody,
+    table tr,table td{
+        display: block;
+    }
+    table tr{
+        border: 2px solid #000000;
+    }
+    table tbody td:before{
+        display: inline-block;
+        width: 8rem;
+        font-weight: bold;
+        text-align: right;
+        padding-right: 1rem;
+        white-space: nowrap;
+
+    }
+    table tbody td:nth-child(1):before{
+       content:'First Name';
+    }
+    table tbody td:nth-child(2):before{
+        content:'Last Name';
+     }
+     table tbody td:nth-child(3):before{
+        content:'Job Title';
+     }
+}

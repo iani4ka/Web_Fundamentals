@@ -1,0 +1,9 @@
+@import url('../Solution/reset.css');
+@import url('../Solution/typography.css');
+@import url('../Solution/buttons.css');
+@import url('forms.css');
+
+body{
+    background: #EEE;
+    padding: 2rem;
+}

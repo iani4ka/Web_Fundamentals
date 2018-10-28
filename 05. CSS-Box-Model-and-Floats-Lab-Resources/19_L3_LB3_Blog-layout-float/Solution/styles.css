@@ -1,0 +1,74 @@
+html{
+    font: 16px/1.5;
+    font-family: "Helvetica", sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background: rgb(238, 238, 238);
+    padding: 6rem;
+}
+.site-title p{
+    font-size: 2.5rem;
+    color: black;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.site>header:first-of-type{
+    border-bottom: 2px solid black;
+}
+
+h1,h2,h3{
+    font-family: "Georgia", sans-serif;
+    size: 1em/1.2;
+}
+.align-left,
+.align-right{
+    max-width: 100%;
+    height: auto;
+    color: rgb(255, 255, 255);
+    border: 0.4rem black solid;
+    padding: 0.9rem;
+    box-shadow: 0 0 2rem 0 rgba(0,0,0,0.25);
+}
+.align-right{
+    float: right;
+    margin: 0 0 1rem 1.5rem;
+}
+.align-left{
+    float:left;
+    margin: 0 1.5rem 1rem 0;
+}
+blockquote{
+	width: 40%;
+	min-width: 15rem;
+	float: right;
+	color: #444;
+	font-family: "Georgia", serif;
+	padding-top: 0;
+}
+blockquote .author{
+    text-align: right;
+}
+main,aside{
+    float: left;
+}
+main{
+    width: 70%;
+}
+aside{
+    width: 30%;
+    padding: 0 0 0 4rem;
+}
+li a{
+    text-decoration: none;
+    color: green;
+}
+ul{
+    margin: 0 0 1.5rem 0;
+}
+ul li{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
